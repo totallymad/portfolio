@@ -10,6 +10,10 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .container {
     width: 1140px;
     margin: 0 auto;
@@ -20,3 +24,8 @@
 @import 'blocks/buttons';
 @import 'blocks/sidepanel';
 @import 'blocks/menu';
+@import 'blocks/about';
+@import 'blocks/resume';
+@import 'blocks/skills';
+@import 'blocks/portfolio';
+@import 'blocks/price';

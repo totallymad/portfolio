@@ -11,3 +11,17 @@
         left: 0;
     }
 }
+
+@mixin before_cricle_little {
+    &::before {
+        content: '';
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        border-radius: 100%;
+        background-color: $main-color;
+        z-index: -1;
+        top: 3px;
+        left: 0px;
+    }
+}
